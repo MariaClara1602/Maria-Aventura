@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do ouro perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <header>Em Busca do ouro perdido</header>
+            <img src="img/0b66c21c-4b97-427a-8db5-263a2a486cee (1).png" alt="Inicio da Jornada">
+            <p>Um dia desses, dentro de um livro na Sala de Leitura da escola, eu descobri uma carta antiga sobre ouro perdido, esta carta deu pistas do local onde o ouro se encontra</p>
+            <button class="btn-proximo" data-proximo="1">Barra Bonita</button>
+            <button class="btn-proximo" data-proximo="2">Igaraçu do Tietê</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/a55ccbd1-7b29-47f5-9849-30c366f30ee4_1.png" alt="Chegamos em Barra Bonita">
+            <p>Você começa sua jornada em Barra Bonita, subindo a avenida papa joao pauloII, em direção ao supermercado trás de pistas.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista supermercado</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar a bibiblioteca</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/3f3f5d63-b610-4670-90ca-78c8e5d1b55e.png" alt="Em Barra Bonita">
+            <p>Em Igaraçu, você visita a linda cidade. Na carta, uma das pistas indica que para localizar a entrada para o ouro perdido você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar o museu</button>
+            <button class="btn-proximo" data-proximo="6">Explorar os barcos</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <img src="img/a55ccbd1-7b29-47f5-9849-30c366f30ee4_1.png" alt="Chegando no supermercado">
+            <p>Ao chegar ao supermercado, você encontra uma antiga inscrição apontando que a próxima pista está
+                localizada na rua primeira de março, próximo ao ponto de táxi</p>
+                <button class="btn-proximo" data-proximo="7">Seguir para o ponto de táxi</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/0b66c21c-4b97-427a-8db5-263a2a486cee (1).png" alt="O retorno para a bibiblioteca">
+            <p>Você decide que a aventura é grande demais e volta para a bibiblioteca, retomar sua leitura, mas sempre se pergunta o que teria
+                encontrado se teria encontrado o ouro se tivesse persistido</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/3c130e6f-4922-45c8-8bec-cfb7090154e7.png" alt="No museu de barra bonita">
+            <p>Na museu, você descobre um mapa antigo escondido em uma gaveta velha, apontando que a próxima
+                pista fica ao próximo ao rio</p>
+            <button class="btn-proximo" data-proximo="7">ir em direção ao rio</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/3f3f5d63-b610-4670-90ca-78c8e5d1b55e.png" alt="No rio">
+            <p>Explorando os barcos,você apenas encontra mapas e decide segui-lo, mas ele leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar o museu</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="img/63e9ab28-1368-411c-b18f-3a643b91deb7.png" alt="Dificil escolha">
+            <p>Na rua primeira de março a busca pelo ouro perdido se intensifica. Você se depara com um caminho estreito e emburacado.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo caminho a frente</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo caminho à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/3c130e6f-4922-45c8-8bec-cfb7090154e7.png" alt="de volta ao museu">
+            <p>De volta ao museu, você finalmente encontra o mapa antigo correto. Agora,seguir a rua primeira de março!</p>
+            <button class="btn-proximo" data-proximo="7">ir a rua primeira de março</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/entrada-mineiros.png" alt="casa abandonada">
+            <p>No caminho à frente leva você a uma rua sem saída e cheia de pedras .</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o casa abandonada</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/63e9ab28-1368-411c-b18f-3a643b91deb7.png" alt="Inicio da Jornada">
+            <p>O caminho à direita segui por uma estrada cheia de pedras. Apesar de belas vistas, não há sinais de algum ouro perdido
+                aqui.</p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cidadeperdida.png" alt="Chegamos a casa abandonadA">
+            <p>Dentro da casa, você descobre um porão com tesouros, ouros, e joias de valores inimagináveis decide se dedicar a esconder e apagar as pistas 
+               deste lugar</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
